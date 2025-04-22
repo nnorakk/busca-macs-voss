@@ -43,7 +43,7 @@ python async_lista_macs_extreme.py --ips 10.16.120.{101..115} --switchuser SWITC
 Ou carregando as variáveis de ambiente de um `.env`:
 
 ```bash
-source .dockerenv
+source .env
 python async_lista_macs_extreme.py --ips 10.16.120.{101..115}
 ```
 
