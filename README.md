@@ -18,13 +18,15 @@ Script Python para listar os endereços MAC de dispositivos Extreme Networks em 
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/async_lista_macs_extreme.git
-cd async_lista_macs_extreme
+git clone https://github.com/nnorakk/busca-macs-voss.git
+cd busca-macs-voss
 ```
 
-Instale as dependências:
+Crie um ambiente virtual e instale as dependências:
 
 ```bash
+python -m venv venv
+venv/bin/activate
 pip install -r requirements.txt
 ```
 
